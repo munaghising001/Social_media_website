@@ -24,10 +24,61 @@
           <img src="images/search.png">
           <input type="text" placeholder="Search">
         </div>
-        <div class="nav-user-icon online">
+        <div class="nav-user-icon online " onclick="settingsMenuToggle()">
           <img src="images/profile-pic.png">
         </div>
       </div>
+
+ <!--------------------setting-menus---------------->
+       <div class="settings-menu">
+
+      <div id="dark-btn">
+        <span></span>
+      </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+        <img src="images/profile-pic.png">
+        <div>
+          <p> John Nickolas</p>
+          <a href="#"> See your profile</a>
+          
+        </div>
+        
+      </div>
+      <hr>
+        <div class="user-profile">
+        <img src="images/feedback.png">
+        <div>
+          <p> Give Feedback</p>
+          <a href="#"> Help us to improve new design</a>
+          
+        </div>
+        
+      </div>
+      <hr>
+       <div class="settings-links">
+        <img src="images/setting.png" class="settings-icon">
+        <a href=" #"> Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+       </div>
+       <div class="settings-links">
+        <img src="images/help.png" class="settings-icon">
+        <a href=" #"> Help & support<img src="images/arrow.png" width="10px"></a>
+       </div>
+       <div class="settings-links">
+        <img src="images/display.png" class="settings-icon">
+        <a href=" #"> Display  & Accessibility <img src="images/arrow.png" width="10px"></a>
+       </div> 
+       <div class="settings-links">
+        <img src="images/logout.png" class="settings-icon">
+        <a href=" #"> Logout <img src="images/arrow.png" width="10px"></a>
+       </div>   
+
+
+
+        </div>
+        
+       </div>
 
     </nav>
 
@@ -128,8 +179,69 @@
           </div>
         </div>
     </div>
+    <div class="post-container">
+      <div class="post-row">
+           <div class="user-profile">
+        <img src="images/member-2.png">
+        <div>
+          <p> Nikolas Tesla</p>
+          <span> June 25 2025, 1:00 AM</span>
+          
+        </div>
+        
+      </div>
+       <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+        
+      </div>
+      <p class="post-text"> Learning guitar <span>with my friends</span> to get new experience for my life.
+        <a href="#"> #NewThings</a><a href="#"> YoutubeChannel</a> </p>
+        <img src="images/feed-image-2.png"  class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+           <div> <img src="images/like-blue.png" >200</div>
+           <div> <img src="images/comments.png" >25</div>
+           <div> <img src="images/share.png" >20</div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="images/member-2.png" > <i class="fas fa-caret-down"></i>
+
+          </div>
+        </div>
+    </div>
+     <div class="post-container">
+      <div class="post-row">
+           <div class="user-profile">
+        <img src="images/member-1.png">
+        <div>
+          <p> John Nickolas</p>
+          <span> June 24 2025, 12:55 AM</span>
+          
+        </div>
+        
+      </div>
+       <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+        
+      </div>
+      <p class="post-text"> Learning guitar <span>with my friends</span> to get new experience for my life.
+        <a href="#"> #NewThings</a><a href="#"> YoutubeChannel</a> </p>
+        <img src="images/feed-image-5.png"  class="post-img">
+
+        <div class="post-row">
+          <div class="activity-icons">
+           <div> <img src="images/like-blue.png" >120</div>
+           <div> <img src="images/comments.png" >20</div>
+           <div> <img src="images/share.png" >21</div>
+          </div>
+          <div class="post-profile-icon">
+            <img src="images/member-1.png" > <i class="fas fa-caret-down"></i>
+
+          </div>
+        </div>
+    </div>
 
 
+<button type="button" class="load-more-btn"> Load More</button>
 
 
     </div>
@@ -195,5 +307,10 @@
     </div>
   </div>
 
+  <div class="footer">
+    <p> Copyright 2025 - Easy to do </p>
+    </p>
+  </div>
+<script src="script.js"></script>
   </body>
 </html>
